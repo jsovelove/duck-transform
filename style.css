@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,300;0,400;0,600;0,700;1,700&display=swap');
+
+body{
+  font-size: 10vmin;
+  font-family:'JetBrains Mono';
+  line-height: 20vmin;
+  min-height: 900vh;
+}
+
+
+canvas{
+  
+  position:fixed;
+  top:0;
+  left:0;
+  animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+#btn1{
+  font-family:'JetBrains Mono';
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  margin: auto;
+  background: none;
+  width: 400px;
+  height: 100px;
+  top: 50%;
+  left: 50%;
+  box-shadow: 0px 2px 20px 10px white;
+  cursor: pointer;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  animation: fadeIn 15s;
+  transition-duration: .4s;
+
+
+}
+
+#btn1:hover {
+  transition-duration: .4s;
+  box-shadow: 0px 2px 20px 10px purple;
+  color: white;
+}
+
+
+#intro-text{
+  position: relative;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  line-height: 60px;
+  top: 450px;
+}
+
+#btn2{
+  font-family:'JetBrains Mono';
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  margin: auto;
+  background: none;
+  width: 400px;
+  height: 100px;
+  top: 6000px;
+  left: 50%;
+  box-shadow: 0px 2px 20px 10px white;
+  cursor: pointer;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  animation: fadeIn 15s;
+  transition-duration: .4s;
+
+
+}
+
+#btn2:hover {
+  transition-duration: .4s;
+  box-shadow: 0px 2px 20px 10px purple;
+  color: white;
+}
+
+
+#wakeup-text{
+  position: relative;
+  font-size: 20px;
+  color: white;
+  text-align: left;
+  line-height: 60px;
+  top: 10px;
+}
